@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "to-do-list"
+version = "0.1.0"
+description = "simple to do list"
+authors = ["Javier Villegas <javillegasna@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flet = "^0.10.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
